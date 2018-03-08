@@ -10,16 +10,16 @@ let package = Package(
 			targets: ["Focus"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/typelift/SwiftCheck.git", .exact("0.9.0")),
+//        .package(url: "https://github.com/typelift/SwiftCheck.git", .exact("0.9.0")),
 		.package(url: "https://github.com/typelift/Operadics.git", .exact("0.3.0")),
 	],
 	targets: [
 		.target(
 			name: "Focus",
 			dependencies: ["Operadics"]),
-		.testTarget(
-			name: "FocusTests",
-			dependencies: ["Focus", "Operadics", "SwiftCheck"]),
+//        .testTarget(
+//            name: "FocusTests",
+//            dependencies: ["Focus", "Operadics", "SwiftCheck"]),
 	]
 )
 
