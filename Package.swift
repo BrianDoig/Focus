@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["Focus"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/typelift/SwiftCheck.git", .branch("master")),
+		.package(url: "https://github.com/typelift/SwiftCheck.git", .exact("0.9.1")),
 		.package(url: "https://github.com/typelift/Operadics.git", .branch("master")),
 	],
 	targets: [
