@@ -145,7 +145,7 @@ infix operator !! : ResultPrecedence2
 // MARK: Data.Monoid
 
 /// Append | Alias for a Semigroup's operation.
-infix operator <> : AdditionPrecedence2
+infix operator <> : AdditionPrecedence
 
 // MARK: Control.Category
 
