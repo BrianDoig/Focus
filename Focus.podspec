@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.1"
   s.watchos.deployment_target = "2.1"  
   s.source   = { :git => "https://github.com/typelift/Focus.git", :tag => "#{s.version}", :submodules => true }
-  s.source_files = "Sources/Focus/*.swift", "Carthage/Checkouts/Operadics/Sources/Operadics/Operators.swift"
+  s.source_files = "Sources/Focus/*.swift", "Hack/*.swift"
 end
